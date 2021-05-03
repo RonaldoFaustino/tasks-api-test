@@ -39,7 +39,7 @@ public class ApiTest {
 		
 		.then()
 			.log().all()
-			.statusCode(201);
+			.statusCode(400);
 	}
 	
 	@Test
